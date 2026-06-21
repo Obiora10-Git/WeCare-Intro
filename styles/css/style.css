@@ -228,6 +228,14 @@ long-component-width = --bg-msg-tag-width
 --sm-app-img-contr-h: 26.50462963vw;
 --sm-app-img-transform-clockwise: transform(5.9deg);
 --sm-app-img-transform-anti-clockwise: transform(-5.9deg);
+--sm-app-img-image-1-w: 19.849537037037037vw;
+--sm-app-img-image-1-h: 42.1296296296296296vw;
+--sm-app-img-image-2-w: 21.8171296296296296vw;
+--sm-app-img-image-2-h: 38.2523148148148148148vw;
+--sm-app-img-image-3-w: 21.5856481481481481vw;
+--sm-app-img-image-3-h: 38.7731481481481481vw;
+--sm-app-img-image-4-w: 22.164351851851851851vw;
+--sm-app-img-image-4-h: 37.67361111111111111vw;
 
 
 /*Msg Tag*/
@@ -1407,6 +1415,11 @@ footer{
     align-items: center;
     border-radius: 50%;
     color: #FFFFFF;
+}
+
+svg rect{
+    width: 80%;
+    height: 90%;   
 }
 
 .sec-4-line-height{
