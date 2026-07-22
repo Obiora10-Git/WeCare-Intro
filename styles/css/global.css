@@ -675,6 +675,7 @@ div .span2{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 } 
 
 .sm-icon-box{
