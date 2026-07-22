@@ -11,6 +11,7 @@ html{
 }
 
 
+
 :root{
  
  /*width: 1728px - 100vw
@@ -267,9 +268,91 @@ long-component-width = --bg-msg-tag-width
 
 /*Element*/
 
+.red{
+    color: var(--red-icon-fill-color);
+}
+
+.blue{
+    color: var(--emergency-arrow-fill-color);
+}
+
+.white{
+    color: whitesmoke;
+}
+
+.black{
+    color: black;
+}
+
+.spinner{
+    font-size: var(--h-primary-font-size);
+}
+
 svg {
     width: 100%;
     height: auto;
+}
+
+svg rect{
+    width: 80%;
+    height: 90%;   
+}
+
+div .span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    min-width: 0;
+
+}
+
+div .span2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    min-width: 0;
+    
+
+}
+
+
+
+
+.bg-logo p{
+    font-size: var(--bg-logo-font-size);
+    font-weight: var(--medium);
+    
+}
+
+.sm-logo p{
+    font-size: var(--sm-logo-font-size);
+    font-weight: var(--medium);
+    
+}
+
+
+.nav-font{
+    font-size: var(--nav-font-size);
+    font-weight: var(--medium); 
+    color: var(--nav-font-color);   
+}
+
+.nav-btn{
+    width: var(--nav-btn-width);
+    padding: var(--nav-btn-padding);
+    border-radius: var(--nav-btn-br);
+    background-color: var(--nav-btn-color);
+    color: var(--nav-btn-font-color);
 }
 
 
@@ -447,7 +530,11 @@ svg {
 
 .logo-care{
     color: var(--logo-care-color);
+    
 }
+
+
+
 
 /*Icon Styles*/
 
@@ -666,10 +753,10 @@ svg {
 .blue-circle-fill{
     background: var(--blue-circle-fill);
 }
-.sm-push{
+div .sm-push{
     margin-top: 1.15vw;
 }
-.bg-push{
+div .bg-push{
     margin-top: 1.85vw;
 }
 
@@ -694,7 +781,15 @@ svg {
     height: var(--sm-app-img-contr-h);
 }
 
-
+.q-r-img{
+    width: var(--qr-code-img-size);
+    height: var(--qr-code-img-size);
+}
+.q-r-img_fill{
+    width: var(--qr-code-img-size);
+    height: var(--qr-code-img-size);
+    fill: white;
+}
 
 /* App links*/
 
@@ -862,7 +957,5 @@ svg {
 
 }
 
-/*Hamburger Button style*/
-.hamburger{
-    display: none;
-}
+
+/*Section CLasses*/
