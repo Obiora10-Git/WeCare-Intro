@@ -803,6 +803,7 @@ div .bg-push{
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 0;
+    cursor: pointer;
 }
 
 .bg-app-box{
@@ -813,6 +814,7 @@ div .bg-push{
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 0;
+    cursor: pointer;
 }
 
 .sm-play-box{
