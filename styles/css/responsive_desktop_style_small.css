@@ -88,7 +88,7 @@ nav{
   border-bottom: solid rgb(51, 51, 51, 0.75);
 }
 .nav-font{
-  font-size: 2.7031vw;
+  font-size: 1.7031vw;
   text-transform: capitalize;
 }
 .hidden ul li:last-child{
