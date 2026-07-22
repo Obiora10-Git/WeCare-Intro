@@ -57,7 +57,7 @@ nav{
 }
 .hidden{
     position: absolute;
-    height: 100vh;
+    height: 100vw;
     width: 30vw;
       top: 0vw;
       right: -1000000;
