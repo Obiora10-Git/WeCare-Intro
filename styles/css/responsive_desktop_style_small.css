@@ -60,7 +60,7 @@ nav{
     height: 100vw;
     width: 30vw;
       top: 0vw;
-      right: -1000000;
+      right: -100%;
       transition: right 0.3s ease;
     display: flex;
     flex-direction: column;
