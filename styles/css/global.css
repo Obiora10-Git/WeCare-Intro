@@ -268,6 +268,11 @@ long-component-width = --bg-msg-tag-width
 
 /*Element*/
 
+.break-fix{
+    white-space: nowrap;
+}
+
+
 .red{
     color: var(--red-icon-fill-color);
 }
@@ -677,6 +682,10 @@ div .span2{
     align-items: center;
     cursor: pointer;
 } 
+
+.emergency-arrow-iconbox:hover{
+    border: solid var(--bg-tag-dark-blue-color);
+}
 
 .sm-icon-box{
     width: var(--sm-fill-box-size);

@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
 
 @media screen and (max-width: 850px) {
 .hamburger {
@@ -64,7 +70,8 @@ nav{
       transition: right 0.3s ease;
     display: none;
     padding: 5.5vw 2vw;
-    background-color: aliceblue;
+    background:linear-gradient(to bottom, rgb(240, 248, 255, 1), rgba(255, 255, 255, 0) );
+    
     
     z-index: 90!important;
 }
@@ -81,11 +88,16 @@ nav{
 
 .hidden ul li{
   margin: 0 0 1vw 0;
-  border-bottom: solid rgb(51, 51, 51, 0.75);
+  border-bottom: 2px solid rgb(51, 51, 51, 0.75);
 }
 .nav-font{
   font-size: 1.7031vw;
   text-transform: capitalize;
+  color: var(--h-primary-color)
+}
+
+nav li:last-child .nav-font{
+  color: white;
 }
 .hidden ul li:last-child{
   margin: 1.5vw auto;
@@ -103,7 +115,7 @@ nav{
 }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) and (orientation: portrait){
 .hidden ul{
   display: flex;
   flex-direction: column;
@@ -116,11 +128,15 @@ nav{
 
 .hidden ul li{
   margin: 0 0 1vw 0;
-  border-bottom: solid #333;
+  border-bottom: 2px thin rgb(51, 51, 51, 0.75);
 
 }
 .hidden ul li:last-child{
   margin: 1.5vw auto;
   border-bottom: none;
 } 
+
+.starbox div{
+  top: -0.5vw;
+}
 }

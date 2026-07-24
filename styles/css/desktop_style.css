@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
 .header{
     position: sticky;
     top: 0;
@@ -274,6 +280,7 @@ footer{
     padding: 2vw;
     border-radius: 1.736vw;
     box-shadow: 0 0 1vw 0.25vw rgb(0, 0, 0, 0.25);
+    transition: transform 0.3s ease-in-out;
 
     
 }
@@ -297,6 +304,15 @@ footer{
 
 }
 
+.feature:hover{
+    transform: translateY(-1vw);
+    border: solid var(--bg-tag-dark-blue-color)
+}
+
+.feature:last-child:hover{
+    transform: none;
+    border: none;
+}
 .features-box .feature:last-child .feature-contr{
     display: flex;
     flex-direction: column;
@@ -589,9 +605,13 @@ footer{
   
 }
 
+
+
 .carousel-contr-slide{
     animation: slide 60s infinite 0.4s linear;
 }
+
+
 
 .comment{
     min-width: var(--comment-box-w);
@@ -601,10 +621,19 @@ footer{
     grid-template-rows: 1.5fr 1.3fr;
     justify-content: center;
     border-radius: 1.215277777777777vw;
-    box-shadow: 0 0 0.05vw 0.1vw #00000040;
+    box-shadow: 0 0 0.03vw 0.05vw #00000040;
     background-color: white;
     position: relative;
     
+}
+
+.comment:hover{
+    border: solid var(--bg-tag-dark-blue-color);
+    
+}
+
+.carousel-contr:hover .carousel-contr-slide{
+    animation-play-state: paused;
 }
 
 .comment-a{
@@ -640,6 +669,8 @@ footer{
     flex-direction: column;
     gap: 0.45vw;
 }
+
+
 
 
 .q-r{

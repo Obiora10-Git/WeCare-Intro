@@ -6,6 +6,8 @@
 
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.hidden');
+const carouselSlide = document.querySelectorAll('.comment');
+
 
 
 hamburger.addEventListener('click', () => {
